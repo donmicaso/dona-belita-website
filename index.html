@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Rise and Fall of Dona Belita</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="banner">
+      <h1>The Rise and Fall of Dona Belita</h1>
+      <p>A Story of Strength and Survival</p>
+      <button onclick="location.href='purchase.html'">Buy Now</button>
+      <button onclick="location.href='donate.html'">Donate</button>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="language-switcher">
+      <a href="?lang=en">EN</a> | <a href="?lang=sw">SW</a> | <a href="?lang=pt">PT</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Content -->
+    <section id="home">
+      <h2>About the Book</h2>
+      <p>*The Rise and Fall of Dona Belita* tells the journey of Bertha Riziki Mavoa, a woman who overcame incredible odds. Join her as she faces eviction, fire, and slow poisoning, emerging as a beacon of resilience.</p>
+      <div class="book-preview">
+        <h3>Book Highlights</h3>
+        <p>“When I looked at everything I had built and lost, I reminded myself: strength is born out of survival.”</p>
+        <p>“Through every challenge, I found resilience I didn’t know I had.”</p>
+      </div>
+      <div class="cta">
+        <button onclick="location.href='purchase.html'">Buy Now</button>
+        <button onclick="location.href='donate.html'">Donate</button>
+      </div>
+    </section>
+
+    <!-- About Content -->
+    <section id="about">
+      <h2>About Dona Belita</h2>
+      <p>Dona Belita’s life is a story of survival and strength. From humble beginnings to fierce battles for justice, her journey embodies resilience. This book not only tells her story but also supports women who face similar struggles.</p>
+      <h3>Our Mission</h3>
+      <p>With every purchase and donation, you help educate and empower women who have experienced adversity. Our programs provide seminars, workshops, and safe spaces where women can share their stories, heal, and support one another. Volunteers worldwide are invited to join us in making a difference.</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit_contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Dona Belita. All rights reserved.</p>
+  </footer>
+</body>
+</html>

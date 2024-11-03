@@ -10,7 +10,7 @@
   }
   
   .header, .banner {
-    background-image: url('banner.jpg');
+    background-image: url('book_cover_banner.jpg');
     text-align: center;
     color: white;
     padding: 100px 0;
